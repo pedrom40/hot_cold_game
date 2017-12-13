@@ -25,7 +25,7 @@ export default class HotAndCold extends React.Component {
   }
 
   // sets the action based on the nav btn clicked
-  setBtnClicked(btn) {console.log(btn);
+  setBtnClicked(btn) {
 
     if (btn === 'close') {
       this.setState({
@@ -90,7 +90,7 @@ export default class HotAndCold extends React.Component {
   }
 
   // when the user makes a guess
-  setGuess(guess) {console.log(guess);
+  setGuess(guess) {
 
     // update all the state values
     const guessCount = this.state.guesses + 1;
